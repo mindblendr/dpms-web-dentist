@@ -69,6 +69,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.occupation">
+                                <label>Occupation</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
