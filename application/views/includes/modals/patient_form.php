@@ -76,6 +76,12 @@
                                 <label>Occupation</label>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.dental_insurance">
+                                <label>Dental Insurance</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
