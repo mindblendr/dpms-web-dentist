@@ -39,7 +39,7 @@
                                 <label>Age</label>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-material">
                                 <div class="custom-control custom-radio">
                                     <input type="radio" class="custom-control-input" ng-model="modal.data.gender" id="data-gender-male" ng-value="'male'">
@@ -68,18 +68,75 @@
                                 <label>Nationality</label>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="form-material">
                                 <input type="text" class="form-control" ng-model="modal.data.occupation">
                                 <label>Occupation</label>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.email_address">
+                                <label>Email Address</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.mobile_number">
+                                <label>Mobile Number</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
                             <div class="form-material">
                                 <input type="text" class="form-control" ng-model="modal.data.dental_insurance">
                                 <label>Dental Insurance</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address">
+                                <label>House No.</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_1">
+                                <label>Street Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_2">
+                                <label>Subdivision</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_3">
+                                <label>Baranggay</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_4">
+                                <label>City/Municipality</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_5">
+                                <label>Province</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-material">
+                                <input type="text" class="form-control" ng-model="modal.data.address_6">
+                                <label>Country</label>
                             </div>
                         </div>
                     </div>
