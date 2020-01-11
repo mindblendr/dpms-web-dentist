@@ -295,6 +295,9 @@
         <script src="<?php asset_url('js/codebase.app.min.js'); ?>"></script>
         <script src="<?php asset_url('js/plugins/sweetalert2/sweetalert2.min.js'); ?>"></script>
 
+        <script src="<?php asset_url('js/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js'); ?>"></script>
+        <script src="<?php asset_url('js/pages/be_forms_wizard.min.js'); ?>"></script>
+        
         <script src="<?php asset_url('js/custom/init.js'); ?>"></script>
 
         <?php foreach ($scripts as $index => $script): ?>
